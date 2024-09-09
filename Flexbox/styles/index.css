@@ -58,32 +58,33 @@
 
     align-self: flex-end;
 }
-/* 
-.text{
+
+.text {
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
+}
 
 
 .os5 {
-        width: 468px;
-        height: 160px;
-        background-color: #F48C06;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
+    width: 468px;
+    height: 160px;
+    background-color: #F48C06;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }
 
 .bs5 {
     display: flex;
-    /* flex: 1 2 auto; */
+    align-self: stretch;
 }
 
+.bs5center {
+    display: flex;
+    align-self: center;
+}
 
 .os6 {
 
@@ -91,8 +92,8 @@
     align-items: center;
 }
 
-.bs6{
-    /* flex-grow: 2; */
+.bs6 {
+    flex-grow: 2;
 }
 
 .container {
@@ -100,7 +101,7 @@
     min-height: 100vh;
     background-color: #370617;
     display: flex;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
