@@ -26,13 +26,6 @@
     align-items: stretch;
 }
 
-/* .bs2 {
-    width: 78px;
-    min-height: 78px;
-    margin: 20px;
-    background-color: #9D0208;
-    border-radius: 10px;
-} */
 
 .os3 {
     width: 468px;
@@ -63,6 +56,7 @@
     color: white;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20px;
 }
 
 
@@ -77,13 +71,14 @@
 }
 
 .bs5 {
-    display: flex;
-    align-self: stretch;
+
+    height: 100px;
+    padding-top: 25px;
 }
 
 .bs5center {
-    display: flex;
-    align-self: center;
+    /* margin-top: 20px; */
+    height: 78px;
 }
 
 .os6 {
